@@ -14,11 +14,11 @@ const Hero = () => {
       id="home"
       className="relative overflow-hidden bg-linear-to-r from-pink-100 to-purple-100"
     >
-      <article className="container mx-auto px-4 py-20 md:py-32 flex flex-col md:flex-row items-center">
+      <article className="container mx-auto px-4 py-14 md:py-20 flex flex-col md:flex-row items-center">
         {/* Left Text Section */}
         <div className="md:w-1/2 mb-10 md:mb-0">
-          <hgroup>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <hgroup data-aos='fade-up' data-aos-delay='500' >
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
               Enhance Your Natural{" "}
               <mark className="text-pink-600 bg-transparent">Beauty</mark>
             </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
           </hgroup>
 
           {/* Buttons */}
-          <nav className="flex flex-col sm:flex-row gap-4 mb-12">
+          <nav data-aos='fade-up' data-aos-delay='600' className="flex flex-col sm:flex-row gap-4 mb-8">
             <a
               href="#appointment"
               className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full text-center transition shadow-lg"
@@ -49,7 +49,7 @@ const Hero = () => {
           </nav>
 
           {/* Stats */}
-          <aside className="py-4">
+          <aside data-aos='fade-up' data-aos-delay='800' className="py-4">
             <ul className="flex flex-wrap justify-center gap-4 md:gap-8 text-center">
               {stats.map((stat, index) => (
                 <li key={index} className="px-2">
@@ -66,7 +66,7 @@ const Hero = () => {
         </div>
 
         {/* Right Image Section */}
-        <figure className="md:w-1/2 flex justify-center">
+        <figure data-aos='fade-up' data-aos-delay='700' className="md:w-1/2 flex justify-center">
           <div className="relative w-full max-w-md">
             <span
               className="bg-pink-500 rounded-full w-80 h-80 absolute -top-10 -left-10 opacity-20"
