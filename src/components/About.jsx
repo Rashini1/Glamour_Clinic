@@ -44,7 +44,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-14 overflow-hidden bg-gradient-to-br from-pink-100 to-purple-100"
+      className="py-14 overflow-hidden bg-linear-to-br from-pink-100 to-purple-100"
     >
       <div className="container mx-auto px-4">
         <article
@@ -58,11 +58,11 @@ const About = () => {
               <img
                 src={aboutImage}
                 alt="About Glamour Clinic"
-                className="w-full h-auto object-cover aspect-[4/5]"
+                className="w-full h-auto object-cover aspect-4/5"
                 loading="lazy"
               />
               <div
-                className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"
+                className="absolute inset-0 bg-linear-to-t from-black/40 to-transparent"
                 aria-hidden="true"
               ></div>
             </div>
@@ -93,11 +93,10 @@ const About = () => {
                 About <span className="text-pink-600">Glamour Clinic</span>
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus cupiditate recusandae labore esse dignissimos
-                accusantium ipsam veniam. Quo, explicabo ipsa voluptatum
-                necessitatibus saepe reiciendis vero optio similique praesentium
-                eveniet perferendis.
+                At Glamour Clinic, we combine advanced aesthetic treatments with personalized 
+                care to help you look and feel your best. Our expert team of professionals is 
+                dedicated to enhancing your natural beauty safely and effectively, 
+                ensuring every client leaves confident and radiant.
               </p>
             </header>
 
@@ -158,10 +157,10 @@ const About = () => {
               Our Mission
             </h3>
             <blockquote className="text-lg text-gray-700 mb-6">
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates cum sunt dignissimos, numquam soluta blanditiis esse
-              fugit, repudiandae, quas deleniti unde dolor tenetur! Laudantium
-              dolor blanditiis cum incidunt, voluptatem voluptates."
+              " Our mission is to empower every client to feel confident and radiant 
+              by providing safe, innovative, and personalized aesthetic treatments. 
+              We are committed to excellence, professionalism,
+               and enhancing natural beauty with care and precision."
             </blockquote>
 
             <figure className="flex items-center">

@@ -23,10 +23,8 @@ const Hero = () => {
               <mark className="text-pink-600 bg-transparent">Beauty</mark>
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-lg">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
-              adipisci libero, officia laudantium corrupti, dolore quod
-              aspernatur quia nesciunt cumque fugit veniam ad doloremque
-              accusamus.
+              Reveal your best self with our personalized treatments that highlight your natural features.
+              Bringing out your inner confidence and timeless beauty.
             </p>
           </hgroup>
 

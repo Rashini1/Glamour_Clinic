@@ -6,25 +6,25 @@ const Services = () => {
     {
       icon: <FaClinicMedical className="text-4xl text-pink-600" aria-hidden="true" />,
       title: "Facelift Procedures",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse saepe modi ducimus.",
+      desc: "Restore a youthful glow with our safe and gentle facelift treatments.  ",
       link: "#facelift",
     },
     {
       icon: <FaUserMd className="text-4xl text-pink-600" aria-hidden="true" />,
       title: "Botox & Fillers",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse saepe modi ducimus.",
+      desc: "Smooth fine lines and restore volume with our expert Botox and filler treatments. ",
       link: "#botox",
     },
     {
       icon: <FaRegSmile className="text-4xl text-pink-600" aria-hidden="true" />,
       title: "Laser Treatments",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse saepe modi ducimus.",
+      desc: "Revitalize your skin with our advanced laser treatments that target blemishes, scars, and uneven tone.",
       link: "#laser",
     },
     {
       icon: <FaSyringe className="text-4xl text-pink-600" aria-hidden="true" />,
       title: "Body Contouring",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse saepe modi ducimus.",
+      desc: "Sculpt and define your body with our advanced contouring treatments.",
       link: "#contouring",
     },
   ];
@@ -45,8 +45,8 @@ const Services = () => {
             Our <span className="text-pink-600">Premium Services</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Consectetur adipisicing elit. Possimus soluta laboriosam voluptatibus repudiandae
-            deserunt.
+            Experience the perfect blend of innovation and care with our exclusive range
+             of beauty and wellness treatments.
           </p>
         </header>
 
